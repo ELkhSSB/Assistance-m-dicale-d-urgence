@@ -1,0 +1,107 @@
+
+ 
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0b8997;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    height: fit-content;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+.logo {
+    height: 60px;
+    float: left;
+    margin-left: 40px;
+    background: #fff;
+    border-radius: 50%;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+/*     background: #fff;
+ */    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h3, h2 {
+    color: #333;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="radio"] {
+    width: auto;
+}
+
+.radio-group {
+    /* display: inline; */
+    float: left;
+    border: solid black;
+    width: 45%;
+    margin-right: 10px;
+}
+.form-group .radio-group label {
+    margin-right: 10px;
+}
+.form-group .radio-group input {
+    margin-right: 5px;
+}
+.form-group .scale input {
+    width: 50%;
+}
+.form-group .scale label {
+    width: 50%;
+    margin-right: 10px;
+}
+#additional-notes{
+    width:45% ;
+}
+radio-group{
+    float:right;
+    width:50%;
+}
+button {
+    background-color: #0b8997;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}

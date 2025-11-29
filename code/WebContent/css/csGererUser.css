@@ -1,0 +1,133 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background: url('../images/op7.jpg') no-repeat center center/cover;
+    color: #ecf0f1;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.sidebar-header {
+    padding: 20px;
+    background-color: #34495e;
+    text-align: center;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* .sidebar-menu li {
+    padding: 15px 20px;
+}
+ */
+.sidebar-menu li a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 0;
+}
+
+.sidebar-menu li a:hover {
+    background-color: #34495e;
+    border-radius: 4px;
+    color:#fff;
+}
+
+.main-content {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bdc3c7;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+header h2 {
+    margin: 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.profile-info p {
+    margin: 0;
+}
+
+.user-management {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #bdc3c7;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #34495e;
+    color: white;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.btn-edit, .btn-delete {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+}
+
+.btn-edit:hover {
+    background-color: #2980b9;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b;
+}

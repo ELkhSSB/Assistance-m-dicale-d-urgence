@@ -1,0 +1,153 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background: url('../images/op7.jpg') no-repeat center center/cover;
+    color: #ecf0f1;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.sidebar-header {
+    padding: 20px;
+    background-color: #34495e;
+    text-align: center;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* .sidebar-menu li {
+    padding: 15px 20px;
+}
+ */
+.sidebar-menu li a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 0;
+}
+
+.sidebar-menu li a:hover {
+    background-color: #34495e;
+    border-radius: 4px;
+    color:#fff;
+}
+
+.main-content {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bdc3c7;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+header h2 {
+    margin: 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.profile-info p {
+    margin: 0;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.queue-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.queue-table th, .queue-table td {
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    text-align: center;
+}
+
+.queue-table th {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+.queue-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.queue-table tr:hover {
+    background-color: #ecf0f1;
+}
+
+.assign-btn, .remove-btn {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.assign-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.assign-btn:hover {
+    background-color: #45a049;
+}
+
+.remove-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.remove-btn:hover {
+    background-color: #d32f2f;
+}

@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+    height: 80px;
+    background: #4CAF50;
+}
+
+.logo {
+    height: 60px;
+    float: left;
+    margin-left: 10px;
+    background: #fff;
+    border-radius: 50%;
+    
+}
+
+nav ul {
+  
+    list-style: none;
+    float: right;
+    margin-right: 10px;
+    height: 80px;
+    background: #4CAF50;
+   
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+    background: #4CAF50;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    background: #4CAF50;
+}
+@media only screen and (max-width: 600px){
+
+    nav{
+        flex-direction: column;
+        background: #4CAF50;
+
+    }
+}
+.hero {
+    background: url('../images/op2.jpg') no-repeat center center/cover;
+    color: #000;
+    text-align: center;
+    padding: 50px 0;
+    height: 200px;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.hero .btn {
+    background: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.features .feature {
+    float: left;
+    width: 23%;
+    margin: 1%;
+    text-align: center;
+}
+
+.features .feature img {
+    height: 100px;
+}
+
+.features .feature h2 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.features .feature p {
+    color: #777;
+}
+
+.testimonials {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.testimonials .testimonial {
+    margin-bottom: 20px;
+}
+
+.signup {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.signup h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.signup form input,#comment {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup form button {
+    background: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .social a {
+    margin: 0 10px;
+}
+
+footer .social img {
+    height: 30px;
+}

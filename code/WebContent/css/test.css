@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #0b8997;
+    color: #fff;
+    padding: 10px 0;
+    height: 50px;
+}
+
+.logo {
+    height: 60px;
+    float: left;
+    margin-left: 10px;
+    background: #fff;
+    width: 60px;
+    border-radius: 50%;
+}
+
+nav ul {
+  
+    list-style: none;
+    float: right;
+    margin-right: 10px;
+   
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px){
+
+    nav{
+        flex-direction: column;
+        background: #0b8997;
+
+    }
+}
+.hero {
+    background: url('../images/op2.jpg') no-repeat center center/cover;
+    color: #000;
+   
+    text-align: center;
+    padding: 12px 0;
+    height: 200px;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+    
+}
+
+.hero .btn {
+    background: #4bf4eb;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.features .feature {
+    float: left;
+    width: 23%;
+    margin: 1%;
+    text-align: center;
+}
+
+.features .feature img {
+    height: 100px;
+}
+
+.features .feature h2 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.features .feature p {
+    color: #777;
+}
+
+.testimonials {
+    background: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.testimonials .testimonial {
+    margin-bottom: 10px;
+}
+
+.signup {
+    background: #596469;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    height: fit-content;
+}
+
+.signup h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.signup form input,#comment {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup form button {
+    background: #c0bcbc;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #0b8997;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .social a {
+    margin: 0 10px;
+}
+
+footer .social img {
+    height: 30px;
+}
